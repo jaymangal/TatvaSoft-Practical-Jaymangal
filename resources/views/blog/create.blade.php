@@ -49,9 +49,9 @@ $('#register_btn').click(function(event){
 
   /* validate fields */
     if(firstname == ''){
-      $('.firstname_err').text("Firstname is required");
+      $('.firstname_err').text("Title is required");
     }else if(lastname == ''){
-      $('.lastname_err').text("Lastname is required");
+      $('.lastname_err').text("Description is required");
     }else{
       $('#form-register').submit();
     }
